@@ -43,7 +43,7 @@ public class SecurityConfig {
                 )
                 .userDetailsService(userDetailsService)
                 .httpBasic(Customizer.withDefaults())
-                .formLogin(Customizer.withDefaults())
+                .formLogin(Customizer.withDefaults());
 //                .authenticationProvider(authenticationProvider)
 //                .addFilterBefore(jwtAuthenticationFilter);
 
